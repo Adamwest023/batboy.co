@@ -2,41 +2,48 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8" />
-    <title>HTML + CSS</title>
+    <title>Adam West </title>
 
-    <link rel="stylesheet" type="text/css" href="../03-HTML-CSS/style.css" />
+    <link rel="stylesheet" type="text/css" href="../batboy.co/CSS/style.css">
   </head>
 
   <body>
     <header>
       <h1>Student Bio</h1>
+      <nav>
+        <ul>
+        <li><a href="/">Portfolio</a></li>
+        <li><a href="#main-bio">About Me</a></li>
+        <li><a href="#contact-info">Contact</a></li>
+      </ul>
+      </nav>
     </header>
 
-    <div class="container">
-      <section id="main-bio">
+    <main class="container">
+      <section class="main-bio" id="main-bio">
+        <img id="bio-image" src="../batboy.co/Images/Headshot.jpg" alt="Adam West" />
+
+        <div class="flex-row">
         <!-- TODO: Replace content with your own info -->
-        <h2>Adam West</h2>
-
-        <img
-          id="bio-image"
-          src="../03-HTML-CSS/Images/Headshot.jpg"
-          alt="Adam West"
-        />
-
+        <h2>Adam West
+        </h2>
         <p>
           My name is Adam West, I am a junior full-stack developer learning HTML, CSS, and JavaScript. I graduated from Middle Tennesse State University where I studied media and have spent the last 6 years working in the film industry. After that time I have decided to shake up my career and jump into a tech position. I'm excited to keep learning and growing in my knowledge of website design.
-           <a href="http://www.lipsum.com/">www.lipsum.com</a>
+           <a href="http://www.batboy.co/">www.batboy.co</a>
         </p>
+      </div>
       </section>
 
-      <section id="contact-info">
+      <section class="contact-info" id="contact-info">
+        <div class="flex-row">
         <h2>Contact Info</h2>
         <ul>
           <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
           <li><strong>Github:</strong> <a href="#">sampleName</a></li>
           <li><strong>LinkedIn:</strong> <a href="#">coming soon</a></li>
         </ul>
+      </div>
       </section>
-    </div>
+    </main>
   </body>
 </html>
