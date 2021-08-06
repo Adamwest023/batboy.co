@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.body {
+    margin: 0 auto;
+}
+
+
 .flex-row {
     display: flex;
 }
@@ -16,6 +21,7 @@ header  {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: gray;
 }
 header nav {
     display: flex;
@@ -46,7 +52,7 @@ header nav ul li a {
     width: 100%;
 
 }
-.main-bio h2 {
+.main-bio h2, img {
     margin-left: 60px;
     margin-top: 20px;
     flex: 1;
@@ -54,6 +60,7 @@ header nav ul li a {
 
 .main-bio p {
     flex: 2;
+    margin: 0 30px;
 
 }
 
