@@ -149,9 +149,9 @@ footer {
     font-size: 40px;
 }
 .work-main {
-    width: 600px;
+    width: 700px;
     height: 350px;
-    margin-right: 40px;
+    margin-right: -40px;
     background-image: url("../Images/hero-bg.jpg");
     background-position: center;
     background-size: cover;
