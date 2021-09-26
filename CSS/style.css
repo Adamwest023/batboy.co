@@ -152,7 +152,7 @@ footer {
     width: 700px;
     height: 350px;
     margin-right: -40px;
-    background-image: url("../Images/hero-bg.jpg");
+    background-image: url("../Images/GAR_Hero.jpg");
     background-position: center;
     background-size: cover;
     margin-top: 25px;
@@ -220,14 +220,14 @@ footer {
     background-image: url("../Images/hero-bg.jpg");
 }
 .password-generator {
-    background-image: url("../Images/hero-bg.jpg");
+    background-image: url("../Images/Password-img.png");
    
 }
 .code-refactor {
     background-image: url("../Images/Horiseon_Refactor.png");
 }
 .sizzle {
-    background-image: url("../Images/hero-bg.jpg");
+    background-image: url("../Images/Scheduler-img.png");
 }
 
 /* Portfolio section ends */
